@@ -8,11 +8,6 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },
-    {
-      path: '/page',
       name: 'checkerboard',
       component: () => import('@/views/page'),
     }
